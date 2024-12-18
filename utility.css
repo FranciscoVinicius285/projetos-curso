@@ -1,5 +1,6 @@
 .py-base{
     padding-block: var(--py-base);
+    margin: auto;
 }
 .py-lg{
     padding-block: var(--py-lg);
@@ -27,8 +28,14 @@
 .flex{
     display: flex;
 }
+.items-center{
+    align-items: center;
+}
 .gap-1{
     gap: 1rem;
+}
+.gap-1\.5{
+    gap: 1.5rem;
 }
 .grid{
     display: grid;
