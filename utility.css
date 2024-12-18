@@ -4,12 +4,15 @@
 }
 .py-lg{
     padding-block: var(--py-lg);
+    margin: auto;
 }
 .py-xl{
     padding-block: var(--py-xl);
+    margin: auto;
 }
 .px-lg{
     padding-inline: var(--px-lg);
+    margin: auto;
 }
 .container{
     --max-width: 375px;
