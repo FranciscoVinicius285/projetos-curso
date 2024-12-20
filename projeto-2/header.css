@@ -1,0 +1,42 @@
+header{
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+
+    & input{
+        margin-right: auto;
+        position: relative;
+        width: 30%;
+        padding: 10px 10px;
+        margin-left: 8px;
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+        border: 1px solid red;
+    }
+    & label{
+        position: absolute;
+        z-index: 1;
+        margin-left: 135px;
+        width: 29%;
+        display: flex;
+       justify-content: space-between;
+       font: var(--tx-a);
+    }
+    /* & .search{
+        margin-right: 200px;
+    } */
+    & a{
+        margin: 1.25rem;
+        font: var(--tx-a);
+    }
+    & .logo{
+        width: 7.5rem;
+        height: 3.1rem;
+    }
+    & .icon-usa{
+        width: 1.5rem;
+        height: auto;
+        margin-right: 1.25rem;
+    }
+}

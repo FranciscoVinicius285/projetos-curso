@@ -8,6 +8,7 @@
     --tx-a: 700 1rem/125% var(--ff-family);
 
     --red-color:#e60012;
+    --links-color: #484848;
 }
 *{
     margin: 0;
@@ -19,4 +20,14 @@
 }
 .align-items{
     align-items: center;
+}
+a{
+    text-decoration: none;
+    color: var(--links-color);
+}
+a:hover{
+    color: var(--red-color);
+}
+i{
+    padding-right: .25rem;
 }
