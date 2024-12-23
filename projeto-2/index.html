@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,23 +12,46 @@
 </head>
 <body>
     <header>
-        <nav class="flex align-items">
-            <img class="logo" src="assets/Nintendo.svg.png" alt="">
-
-            <label for="Search"> 
-                <span class="search"><i class="fa-solid fa-magnifying-glass"></i> Search</span>
-                <span>All categories <i class="fa-solid fa-chevron-down"></i></span>
-            </label>
-            <input type="text" name="Search" id="Search">
-
-
-            <a href="#"><i class="fa-solid fa-circle-info"></i>Support</a>
-            <a href="#"><i class="fa-solid fa-heart"></i>Wish List</a>
-            <a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
-            <a href="#"><i class="fa-solid fa-user"></i>Log in/ Sign up</a>
-
-            <img class="icon-usa" src="assets/united-states.png" alt="">
-        </nav>
+        <div>
+            <nav class="flex align-items">
+                <img class="logo" src="assets/Nintendo.svg.png" alt="">
+    
+                <div class="search desktop">
+                    <label for="Search"> 
+                        <span class="first-span"><i class="fa-solid fa-magnifying-glass"></i> Search</span>
+                        <span>All categories <i class="fa-solid fa-chevron-down"></i></span>
+                    </label>
+                    <input type="text" name="Search" id="Search">
+                </div>
+    
+    
+                <a href="#" class="desktop"><i class="fa-solid fa-circle-info"></i>Support</a>
+                <a href="#" class="desktop"><i class="fa-solid fa-heart"></i>Wish List</a>
+                <a href="#" class="desktop"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a href="#" class="desktop"><i class="fa-solid fa-user"></i>Log in/ Sign up</a>
+    
+                <span class="mobile"><img src="assets/mario.png" alt=""></span>
+                <img class="icon-usa" src="assets/united-states.png" alt="">
+            </nav>
+        </div>
     </header>
+
+    <div class="container">
+       <nav class="secondary flex align-items justify-center">
+        <a href="#" class="mystore"><img src="assets/nitendostory-red.png" alt=""> <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#"><i class="fa-solid fa-gamepad"></i> Games <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#"><img src="assets/switch-icon.svg" alt="">Nintendo Switch <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#"><i class="fa-solid fa-comment-dots"></i>News & Events</a>
+        <a href="#"><img src="assets/star-mario.svg" alt="">Play Nintendo <i class="fa-solid fa-chevron-down"></i></a>
+       </nav>
+    </div>
+
+    <div class="three-navegation flex align-items justify-center">
+        <div class="itens flex align-items">
+            <p class="store-icon-1"><i class="fa-solid fa-truck"></i><strong>Free shipping</strong> on orders $50 or more. <span>Restrictions apply</span></p>
+            <h2>|</h2> 
+            <p class="store-icon-2"><i class="fa-solid fa-coins"></i>Earn <span>My Nitendo Points</span>on digital games</p>
+        </div>
+    </div>
 </body>
 </html>

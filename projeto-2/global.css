@@ -6,9 +6,12 @@
     --tx-md: 400 1.5rem/130% var(--ff-family);
     --tx-sm: 400 1rem/125% var(--ff-family);
     --tx-a: 700 1rem/125% var(--ff-family);
+    --tx-p: 400 1rem/120% var(--ff-family);
 
     --red-color:#e60012;
     --links-color: #484848;
+    --division:  #757575;
+    --bg-three: #eeeded;
 }
 *{
     margin: 0;
@@ -21,9 +24,13 @@
 .align-items{
     align-items: center;
 }
+.justify-center{
+    justify-content: center;
+}
 a{
     text-decoration: none;
     color: var(--links-color);
+    font: var(--tx-a);
 }
 a:hover{
     color: var(--red-color);
