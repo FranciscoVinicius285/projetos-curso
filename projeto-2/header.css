@@ -101,7 +101,7 @@ header{
 
     & .store-icon-1, .store-icon-2{
         margin-inline: 1.25rem;
-        font: var( --tx-sm);
+        font: var( --tx-md-sm);
 
         & i{
             color: var(--red-color);
